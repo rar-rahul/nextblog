@@ -1,0 +1,315 @@
+.btn-style {
+  padding: 13px 35px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+  transition: 0.3s ease-in;
+  border-radius: var(--border-radius-full);
+  border: none;
+}
+
+.btn-small {
+  padding: 10px 30px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+.transparent-btn {
+  color: #fff;
+  border: 1px solid #dadada;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.transparent-btn:hover {
+  color: var(--heading-color);
+  background: var(--bg-color);
+  border: 1px solid var(--bg-color);
+}
+
+.title-heading-w3 {
+  max-width: 700px;
+}
+
+.w3l-title-main,
+.w3l-title-main.two {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.w3l-title-breadcrumb {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+@media (max-width: 991px) {
+  .w3l-title-breadcrumb {
+    font-size: 42px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .w3l-title-breadcrumb {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .w3l-title-breadcrumb {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 375px) {
+  .w3l-title-breadcrumb {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+.w3l-title-main span.thin {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+  color: var(--heading-color);
+}
+
+.w3sub-text {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.w3l-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.w3l-title-small.two {
+  color: #eee;
+}
+
+.w3l-title-main.two {
+  color: #fff;
+}
+
+.w3l-title-small {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  color: var(--font-color);
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.title-content-two h6 {
+  text-align: left;
+}
+
+.title-content-two .w3l-title-small:after {
+  margin: 0;
+  text-align: left;
+}
+
+a.read {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: var(--heading-color);
+  opacity: .8;
+}
+
+a.read:hover {
+  color: var(--primary-color);
+}
+
+a.btn.btn-border {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+a.btn.btn-border:hover {
+  color: var(--heading-color);
+}
+
+a.read span.fa,
+a.read span.fas {
+  font-size: 15px;
+  transition: 0.3s ease-in;
+  font-weight: 700;
+  vertical-align: 0px;
+}
+
+a.read:hover span.fa,
+a.read:hover span.fas {
+  transform: translateX(4px);
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 1080px) {
+  .w3l-title-main,
+.w3l-title-main.two {
+    font-size: 32px !important;
+    line-height: 40px;
+  }
+}
+
+
+@media (max-width: 568px) {
+  .w3l-title-main,
+.w3l-title-main.two {
+    font-size: 30px !important;
+    line-height: 38px;
+  }
+  .w3l-subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .btn-style {
+    padding: 13px 30px;
+  }
+}
+
+@media (max-width:480px) {
+  .w3l-title-main,
+.w3l-title-main.two {
+    font-size: 26px !important;
+    line-height: 32px;
+  }
+
+  .btn-style {
+    padding: 13px 28px;
+    font-size: 17px;
+  }
+ 
+}
+
+@media (max-width: 375px) {
+  .w3l-title-main,
+.w3l-title-main.two {
+    font-size: 24px !important;
+    line-height: 30px;
+  }
+}
+
+
+
+/*-- banner --*/
+.w3l-banner {
+  background: url(../../public/images/banner1.jpg) no-repeat center;
+  -ms-background-size: cover;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.w3l-banner:before {
+  content: "";
+  background: var(--bg-layer);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.w3l-banner h3 {
+  font-size: 100px;
+  line-height: 100px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  color: transparent;
+  background: none;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.banner-info-grid {
+  max-width: 750px;
+  margin: auto;
+}
+
+.banner-info-grid h1,
+.banner-info-grid h5 {
+  color: #fff;
+}
+
+.w3l-banner p {
+  color: #fff;
+}
+
+ul.follow-social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul.follow-social li a {
+  font-size: 20px;
+}
+
+@media (max-width: 1080px) {
+  .w3l-banner h3 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .my-image {
+    height: 450px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .w3l-banner h3 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 568px) {
+  .w3l-banner h3 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .my-image {
+    height: 350px;
+  }
+}
+
+@media (max-width: 415px) {
+  .w3l-banner h3 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+  .my-image {
+    height: 300px;
+  }
+}
+
+/*-- //Banner --*/
