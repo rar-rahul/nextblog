@@ -36,12 +36,10 @@ export default function Home() {
 
         <Script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"/>
         
-       
-
         <Script src="/main.js"/>
-        
         <Script type="text/javascript" src="../../assets/js/jquery-1.7.2.js"/>
         <Script type="text/javascript" src="../../assets/js/jquery.quicksand.js"/>
+        
       </main>
     </>
   );

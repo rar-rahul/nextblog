@@ -1,7 +1,9 @@
 
-        //Type auto
+       //Type auto
         const typedTextSpan = document.querySelector(".typed-text");
         const cursorSpan = document.querySelector(".cursor");
+
+       
 
         const textArray = ["Web Designer", "Web Developer", "Photographer", "Freelancer"];
         const typingDelay = 200;
@@ -9,6 +11,7 @@
         const newTextDelay = 100; // Delay between current and next text
         let textArrayIndex = 0;
         let charIndex = 0;
+       
 
         function type() {
             if (charIndex < textArray[textArrayIndex].length) {
@@ -39,10 +42,12 @@
             }
         }
 
+
         document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
-            if (textArray.length) setTimeout(type, newTextDelay + 250);
+           if (textArray.length) setTimeout(type, newTextDelay + 250);
+          
         });
- 
+        
        
 
         $(window).on("scroll", function () {

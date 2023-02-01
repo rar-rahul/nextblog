@@ -11,33 +11,29 @@ const About = () => {
               </div>
               <div className="col-lg-7 w3l-about-info px-lg-4 align-center">
                 <h6 className="w3l-title-small mb-1">My Biography</h6>
-                <h3 className="w3l-title-main mb-2">A Lead UI Designer &amp; Web Developer based in UK</h3>
-                <p className="my-4 pe-lg-5">I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+                <h3 className="w3l-title-main mb-2">A Lead Full Stack Developer &amp; Web Developer based in India</h3>
+                <p className="my-4 pe-lg-5">I love web development have been working as a full stack developer with new technology! Contact me and we will discuss your projects!</p>
                 <div className="my-info mt-4">
                   <div className="single-info"><span>Name:</span>
-                    <p>John Watson</p>
+                    <p>Rahul Raut</p>
                   </div>
                   <div className="single-info"><span>From:</span>
-                    <p>London, UK</p>
+                    <p>Nagpur, India</p>
                   </div>
                   <div className="single-info"><span>Email:</span>
-                    <p><a href="mailto:example@mail.com">example@mail.com</a></p>
+                    <p><a href="mailto:rartech23@mail.com">rartech23@mail.com</a></p>
                   </div>
-                  <div className="single-info"><span>Phone:</span>
-                    <p><a href="tel:+21 234 567 8901">+21 234 567 8901</a></p>
-                  </div>
+                 
                 </div>
                 <ul className="follow-social mt-lg-5 mt-4">
                   <li>
                     <h5 className="me-md-3">Follow me on </h5>
                   </li>
-                  <li><a href="https://in.linkedin.com/company/w3layouts"><span className="fab fa-behance" /></a>
-                  </li>
+                 
                   <li><a href="https://in.linkedin.com/company/w3layouts"><span className="fab fa-linkedin-in" /></a>
                   </li>
                   <li><a href="https://www.facebook.com/w3layouts/">
                       <span className="fab fa-facebook-f" /></a></li>
-                  <li><a href="https://twitter.com/W3layouts"><span className="fab fa-twitter" /></a></li>
                 </ul>
                 <div className="w3l-btn">
                   <a href="contact.html" className="btn btn-style btn-primary mt-lg-5 mt-4 me-md-2">Hire me</a>
