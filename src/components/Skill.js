@@ -29,15 +29,16 @@ const Skill = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress-info">
-                  <h6 className="progress-tittle">Branding Design</h6>
+               
+                <div className="progress-info mb-0">
+                  <h6 className="progress-tittle">Responsive Web Design</h6>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped" role="progressbar" style={{width: '55%'}} aria-valuenow={55} aria-valuemin={0} aria-valuemax={100}>
+                    <div className="progress-bar progress-bar-striped" role="progressbar" style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}>
                     </div>
                   </div>
                 </div>
                 <div className="progress-info mb-0">
-                  <h6 className="progress-tittle">Responsive Web Design</h6>
+                  <h6 className="progress-tittle">Web Development</h6>
                   <div className="progress">
                     <div className="progress-bar progress-bar-striped" role="progressbar" style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}>
                     </div>

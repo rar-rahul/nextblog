@@ -73,7 +73,7 @@ const Portfolio = () => {
               <span className="image-block">
                 <a className="image-zoom" href="assets/images/blog6.jpg" data-gal="prettyPhoto[gallery]">
                   <div className="content-overlay" />
-                  <img src="../../public/assets/images/blog6.jpg" className="img-fluid w3layouts agileits" alt="portfolio-img" />
+                  <img src="assets/images/blog6.jpg" className="img-fluid w3layouts agileits" alt="portfolio-img" />
                   <div className="content-details fadeIn-bottom">
                     <h3 className="content-title">Real Estate </h3>
                     <p className="content-text">This is a short description</p>
